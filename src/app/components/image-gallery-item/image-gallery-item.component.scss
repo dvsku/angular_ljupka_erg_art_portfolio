@@ -1,0 +1,23 @@
+.image-gallery-item {
+    width: 18rem;
+    height: 18rem;
+    overflow: hidden;
+
+    .image {
+        width: 100%;
+        height: 100%;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        transition: transform .4s ease-out;
+    }
+
+    &:hover {
+        .image {
+            transform: scale(1.05);
+            transform-origin: 50% 50%;
+        }
+    }
+}

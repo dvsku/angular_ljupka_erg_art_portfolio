@@ -1,0 +1,98 @@
+.sidebar-container {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #A0B4D9;
+    position: fixed;
+    
+    
+    .title {
+        display: flex;
+        align-items: center;
+        font-size: 2.7rem;
+        font-weight: 400;
+        font-family: Yellowtail;
+        padding: 1rem 0 1rem 1.25rem;
+        color: whitesmoke;
+    }
+
+    .menu {
+        margin-top: 6rem;
+        padding: 0px 1.5rem;
+    
+        .menu-item {
+            padding-bottom: .5rem;
+
+            .menu-item-title {
+                cursor: pointer;
+                font-size: 1.5rem;
+                transition: color .2s linear;
+
+                &:hover {
+                    color: #3E598C;
+                }
+            }
+
+            .submenu {
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height .3s ease-out;
+        
+                .submenu-item {
+                    font-size: 1.1rem;
+                    
+                    div {
+                        padding: .3rem 0 0 1rem;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .contact {
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+
+        .email {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 1.5rem;
+        }
+
+        .social-media {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            padding-bottom: .3rem;
+
+            * {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        font-size: .8rem;
+        color: whitesmoke;
+    }
+}
+
+a {
+    color: #A0B4D9;
+    transition: color .2s linear;
+    text-decoration: none;
+
+    &:hover {
+        color: #3E598C;
+    }
+}

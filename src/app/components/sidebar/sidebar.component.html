@@ -1,0 +1,63 @@
+<div class="sidebar-container">
+    <div class="title">
+        <div>Ljupka Erg</div>
+    </div>
+    <div class="menu">
+        <div class="menu-item">
+            <a class="menu-item-title" routerLink="/gallery"><span>Gallery</span></a>
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-title" (click)="toggleSubmenu(portfolioSubmenu)">Portfolio</span>
+            <div #portfolioSubmenu class="submenu">
+                <a class="submenu-item" routerLink="/portfolio/birds">
+                    <div>Birds</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/dolls">
+                    <div>Doll</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/flowers">
+                    <div>Flowers</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/landscape">
+                    <div>Landscape</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/murals">
+                    <div>Murals</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/novi-sad">
+                    <div>Novi Sad</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/portrets">
+                    <div>Portrets</div>
+                </a>
+                <a class="submenu-item" routerLink="/portfolio/trees">
+                    <div>Trees</div>
+                </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <span class="menu-item-title" (click)="toggleSubmenu(reviewSubmenu)">Reviews</span>
+            <div #reviewSubmenu class="submenu">
+                <a class="submenu-item" routerLink="/reviews/imaginary-sceneries">
+                    <div>Imaginarni pejzaži</div>
+                </a>
+                <a class="submenu-item" routerLink="/reviews/vibrant-life">
+                    <div>Vibracija života</div>
+                </a>
+            </div>
+        </div>
+        <div class="menu-item">
+            <a class="menu-item-title" routerLink="/about"><span>About Me</span></a>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="social-media">
+            <fa-icon [icon]="faInstagram"></fa-icon>
+            <fa-icon style="padding-left: .75rem;" [icon]="faFacebook"></fa-icon>
+        </div>
+        <div class="email">ljupkaerg@gmail.com</div>
+    </div>
+    <div class="copyright">
+        Copyright © All rights reserved.
+    </div>
+</div>

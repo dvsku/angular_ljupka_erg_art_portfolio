@@ -1,0 +1,15 @@
+<div class="standard-container">
+    <image-gallery>
+        <image-gallery-item *ngFor="let image of images" [source]="image" (click)="carouselModal.show();">
+        </image-gallery-item>
+    </image-gallery>
+</div>
+
+<carousel-modal #carouselModal>
+    <mat-carousel timings="250ms ease-in" [autoplay]="false" color="accent" maxWidth="100%" proportion="25"
+        [slides]="images.length" [loop]="false" [hideArrows]="false" [hideIndicators]="true" [useKeyboard]="true"
+        [useMouseWheel]="false" orientation="ltr" slideHeight="100%" style="width: 100%; height: 85vh;">
+        <mat-carousel-slide #matCarouselSlide *ngFor="let image of images; let i = index" [image]="image"
+            overlayColor="transparent" [hideOverlay]="false"></mat-carousel-slide>
+    </mat-carousel>
+</carousel-modal>

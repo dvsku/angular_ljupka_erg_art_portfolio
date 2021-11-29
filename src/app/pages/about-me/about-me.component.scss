@@ -1,0 +1,18 @@
+.split-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1rem;
+
+    .image {
+        padding: 0px 22rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .bio {
+        padding: 0px 10rem;
+        font-size: 18px;
+    }
+}

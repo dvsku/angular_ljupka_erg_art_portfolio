@@ -1,0 +1,67 @@
+// BOOTSTRAP
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/bootstrap-grid';
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/transitions";
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url(assets/fonts/Yellowtail-Regular.ttf) format("opentype");
+}
+
+.standard-container {
+    padding: 1rem 0;
+}
+
+.two-column-layout {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 15rem calc(100% - 15rem);
+
+    .sidebar {
+        grid-column: 1/2;
+        background-color: #303641;
+    }
+
+    .content {
+        grid-column: 2/3;
+        background-color: #f5f5f5;
+    }
+}
+
+.modal-dialog-full {
+    height: 100vh;
+    overflow: hidden !important;
+
+    .modal-dialog {
+        max-width: 100% !important;
+        margin: 0px;
+        padding: 1.75rem;
+        height: 100vh;
+
+        .modal-content {
+            background-color: transparent;
+            border: 0px;
+            height: 100%;
+        }
+    }
+}
+
+.carousel-slide {
+    height: 85vh !important;
+    padding-bottom: 0 !important;
+    background-size: contain !important;
+}
+
+.carousel {
+    height: 85vh !important;
+}
