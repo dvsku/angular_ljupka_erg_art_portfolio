@@ -15,11 +15,17 @@
         font-family: Yellowtail;
         padding: 1rem 0 1rem 1.25rem;
         color: whitesmoke;
+
+        .title-link {
+            color: whitesmoke;
+            cursor: pointer;
+        }
     }
 
     .menu {
-        margin-top: 6rem;
+        margin-top: 4rem;
         padding: 0px 1.5rem;
+        user-select: none;
     
         .menu-item {
             padding-bottom: .5rem;
@@ -62,6 +68,14 @@
             align-items: center;
             justify-content: center;
             padding-bottom: 1.5rem;
+            color: whitesmoke;
+
+            cursor: pointer;
+            transition: color .3s ease-out;
+
+            &:hover {
+                color: #A0B4D9;
+            }
         }
 
         .social-media {
@@ -73,7 +87,34 @@
 
             * {
                 cursor: pointer;
+                transition: color .3s ease-out;
+
+                &:hover {
+                    color: #A0B4D9;
+                }
             }
+        }
+    }
+
+    .language {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: .5rem;
+
+        .flag {
+            width: 24px;
+            height: auto;
+            cursor: pointer;
+            transition: filter .3s ease-out;
+
+            &:hover {
+                filter: brightness(50%);
+            }
+        }
+
+        .flag:not(:first-child) {
+            margin-left: 15px;
         }
     }
 

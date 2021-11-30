@@ -1,0 +1,56 @@
+{
+    "TITLES": {
+        "HOME": "Ljupka Erg | Home",
+        "ABOUT": "Ljupka Erg | About Me",
+        "IS": "Ljupka Erg | Reviews | Imaginary sceneries",
+        "VL": "Ljupka Erg | Reviews | Vibrant life",
+        "BIRDS": "Ljupka Erg | Portfolio | Birds",
+        "DOLLS": "Ljupka Erg | Portfolio | Doll",
+        "FLOWERS": "Ljupka Erg | Portfolio | Flowers",
+        "LANDSCAPE": "Ljupka Erg | Portfolio | Landscape",
+        "MURALS": "Ljupka Erg | Portfolio | Murals",
+        "NOVI_SAD": "Ljupka Erg | Portfolio | Novi Sad",
+        "PORTRETS": "Ljupka Erg | Portfolio | Portrets",
+        "TREES": "Ljupka Erg | Portfolio | Trees"
+    },
+    "SIDEBAR": {
+        "PORTFOLIO": "Portfolio",
+        "PORTFOLIOSUB": {
+            "BIRDS": "Birds",
+            "DOLLS": "Doll",
+            "FLOWERS": "Flowers",
+            "LANDSCAPE": "Landscape",
+            "MURALS": "Murals",
+            "NOVI_SAD": "Novi Sad",
+            "PORTRETS": "Portrets",
+            "TREES": "Trees"
+        },
+        "REVIEWS": "Reviews",
+        "REVIEWSSUB": {
+            "IS": "Imaginary sceneries",
+            "VL": "Vibrant life"
+        },
+        "ABOUT": "About me",
+        "COPYRIGHT": "Copyright © All rights reserved."
+    },
+    "CV": {
+        "TEXT_1": "Ljupka Erg was born on 10 May 1978 in Novi Sad.",
+        "TEXT_2": "In 2003, she graduated in graphic design in the class of Professor Branislav Dobanovački from the Novi Sad Academy of Arts. She has been a member of the Vojvodina Association of Fine Artists since 2017. She is an illustrator, a painter and  a muralist and she also works as an art teacher in the primary school ’’Sveti Sava’’ in Rumenka.",
+        "TEXT_3": "She has participated in many group exhibitions in the country. Until today, she has held four individual exhibitions, two in Novi Sad, Ruma and Kisač.",
+        "TEXT_4": "Her works of art are found in private collections in Slovenia, Hungary, Slovakia, Italy, Switzerland, Canada and Australia."
+    },
+    "REVIEWS": {
+        "IS": {
+            "TEXT_1": "Imaginary sceneries and displays of trees prevail in the artwork of Ljupka Erg. The painter treats the motifs devotedly in order to show her inner world, landscapes that offer her some kind of hideaway. In this stylized universe, forms emerge from a labyrinth of dark contours, breaking the composition into a myriad of tiny cells. Each richly-coloured, they together create a living, vibrant painting. At a glance it looks that motifs of flowers and ancient branching trees can be readily read, but they carry deeper meaning:  devotion to the family and the profession, love for nature. Striving to transfer hidden messages of her imagination, Ljupka Erg engages in a long lasting creation of each particular work of art, first designing the contoured structure which is then enriched with colours. Use of rich colours is a distinguishing feature of the artist.",
+            "AUTHOR": "Marta Djarmati, art historian and curator"
+        },
+        "VL": {
+            "TEXT_1": "People are different in how they look at reality. Most of the time, people store what they experience in an unconfined area of their consciousness and subconsciousness without giving much importance to new input from their environment. On the other hand, some people translate their experience into material forms creating works of art.  They often let imagination interfere with the process of creation in order to turn what has remained unperceived in their work into something material, perceived, real.",
+            "TEXT_2": "Ljupka Erg, graphic designer and painter, lets imagination push reality into the background in any particular painting. Though displayed forms are easily recognizable in her works, they belong to stylized universe where objects stand still yet breathe, fluctuate, pulse and vibrate before the observer’s eyes. Forms emerge from a complex labyrinth of dark contours breaking the composition into a myriad of tiny cells. Each richly-coloured, they together create a living, vibrant painting.",
+            "TEXT_3": "The painter typically finds motifs in nature. Birds, flowers, trees and surreal landscapes tell unique stories, at first glance easy to understand but full of symbolism and hidden meaning. Flowers look like white-hot fireballs rising from the deep, while alley tree branches entwine and unite.",
+            "TEXT_4": "The artist is also interested in female portraits. The women depicted in her works are created in her imagination and inspired both by Slovakian folk traditions and Byzantine iconography. At the same time, they are personification of the artist’s desire to find her place, peace and freedom in her own microcosm.",
+            "TEXT_5": "Escape from reality and everyday life, connection with nature, interest in family roots, traditions and history are factors that make up imagination of Ljupka Erg.  While perceving visual stimuli created in her works, we can only analyze every single detail and experience them in our own way.",
+            "AUTHOR": "Marta Djarmati, art historian and curator"
+        }
+    }
+}

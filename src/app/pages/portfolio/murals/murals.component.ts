@@ -1,18 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { mural } from 'src/app/assets';
+import { BasePortfolioComponent } from '../base/base-portfolio-component';
 
 @Component({
   selector: 'app-murals',
-  templateUrl: './murals.component.html',
+  templateUrl: '../base/base-portfolio-template.html',
   styleUrls: ['./murals.component.scss']
 })
-export class MuralsComponent implements OnInit {
-
+export class MuralsComponent extends BasePortfolioComponent {
     images = mural;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

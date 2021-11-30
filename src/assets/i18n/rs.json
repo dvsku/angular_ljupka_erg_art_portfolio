@@ -1,0 +1,56 @@
+{
+    "TITLES": {
+        "HOME": "Ljupka Erg | Početna",
+        "ABOUT": "Ljupka Erg | O meni",
+        "IS": "Ljupka Erg | Recenzije | Imaginarni pejzaži",
+        "VL": "Ljupka Erg | Recenzije | Vibracija života",
+        "BIRDS": "Ljupka Erg | Portfolio | Ptice",
+        "DOLLS": "Ljupka Erg | Portfolio | Lutka",
+        "FLOWERS": "Ljupka Erg | Portfolio | Cveće",
+        "LANDSCAPE": "Ljupka Erg | Portfolio | Pejzaž",
+        "MURALS": "Ljupka Erg | Portfolio | Mural",
+        "NOVI_SAD": "Ljupka Erg | Portfolio | Novi Sad",
+        "PORTRETS": "Ljupka Erg | Portfolio | Portret",
+        "TREES": "Ljupka Erg | Portfolio | Drvo"
+    },
+    "SIDEBAR": {
+        "PORTFOLIO": "Portfolio",
+        "PORTFOLIOSUB": {
+            "BIRDS": "Ptice",
+            "DOLLS": "Lutka",
+            "FLOWERS": "Cveće",
+            "LANDSCAPE": "Pejzaž",
+            "MURALS": "Mural",
+            "NOVI_SAD": "Novi Sad",
+            "PORTRETS": "Portret",
+            "TREES": "Drvo"
+        },
+        "REVIEWS": "Recenzije",
+        "REVIEWSSUB": {
+            "IS": "Imaginarni pejzaži",
+            "VL": "Vibracija života"
+        },
+        "ABOUT": "O meni",
+        "COPYRIGHT": "Copyright © All rights reserved."
+    },
+    "CV": {
+        "TEXT_1": "Ljupka Erg rođena je 10 maja 1978. godine u Novom Sadu.",
+        "TEXT_2": "Diplomirala je grafički dizajn u klasi profesora Branislava Dobanovačkog 2003    godine na Akademiji umetnosti u Novom Sadu. Član je SULUV-a od 2017.Bavi se slikarstvom i muralom, zaposlena je kao profesor likovne kulture u OŠ ”Sveti Sava” u Rumenki.",
+        "TEXT_3": "Izlagala je na grupnim izložbama u Novom Sadu, Gornjem Milanovcu, Majdanpeku, Beogradu, Kisaču, Bačkom Petrovcu, Nišu i Staroj Pazovi. Do sada priredila je četiri samostalne izložbe dve u Novom Sadu , jednu u Rumi i Kisaču. Nagrada Srebrni ex Tempore – na likovnom događaju povodom dodeljenja titule Evropska prestonica kulture Gradu Novom Sadu za 2021/22 godinu. DARUM ",
+        "TEXT_4": "Njeni radovi se nalaze u privatnim kolekcijama u Sloveniji, Mađarskoj, Slovačkoj, Nemačkoj, Italiji, Kanadi i Australiji."
+    },
+    "REVIEWS": {
+        "IS": {
+            "TEXT_1": "Imaginarni pejzaži i predstave drveća čine veći deo stvaralaštva Ljupke Erg. Slikarka ovoj temi prilazi s velikom predanošću kako bi nam prikazala svoj unutrašnji svet, predele koji joj pružaju utočište. U tom stilizovanom univerzumu forme izranjaju iz složene mreže tamnih kontura, koje kompoziciju razbijaju na bezbroj sitnih ćelija. Svaka u svojoj raskošnoj boji, one zajedno čine živi organizam slike. Motivi  cveća i širom razgranatih stoletnih stabala se na prvi pogled lako čitaju ali u sebi nose dublji smisao: privrženost porodici i profesiji, ljubav prema prirodi. U svojoj težnji nam prenese skrivene poruke svoje imaginacije, Ljupka Erg se prepušta dugotrajnom procesu izrade svakog od ovih umetničkih dela, gradeći najpre kostrukciju u vidu konture koju zatim oplemenjuje bojom. Upravo zbog raskoši kolorita su prepoznatljivi radovi ove umetnice.",
+            "AUTHOR": "Marta Đarmati istoričar umetnosti, kustos"
+        },
+        "VL": {
+            "TEXT_1": "Doživljaj stvarnosti individualan je kod svakog čoveka. Najčešće, ono što dožive, ljudi skladište u bezgraničnom prostoru svesti i podsvesti, ne pridajući značaj konstantnom prilivu novih informacija iz svog okruženja. S druge strane, ima i onih ljudi, koji svoja iskustva pretaču u fizičku formu stvarajući umetnička dela. Oni neretko dozvole da im se u stvaralački proces umeša imaginacija kako bi i ono što je nedoživljeno u njihovim delima postalo opipljivo, doživljeno, stvarno.",
+            "TEXT_2": "Ljupka Erg, grafički dizajner i slikar, dozvolila je imaginaciji da stvarnost potisne u drugi plan svake pojedinačne slike. Iako na njenim delima prepoznajemo prikazane oblike, oni pripadaju stilizovanom univerzumu u čijem su prostoru predmeti statični a ipak dišu, talasaju, pulsiraju i trepere pred očima posmatrača. Forme izranjaju iz složene mreže tamnih kontura, koje kompoziciju razbijaju na bezbroj sitnih ćelija. Svaka u svojoj raskošnoj boji, one zajedno čine živi organizam slike. ",
+            "TEXT_3": "Slikarka motive najčešće traži u prirodi. Ptice, cveće, drveće i nestvarni predeli nosioci su jedinstvene naracije, na prvi pogled lake za tumačenje, ali pune simbolike i skrivenog značenja. Cvetovi podsećaju na usijane vatrene lopte koje niču iz morskih dubina, dok se grane stabala u drvoredu upliću i spajaju u jedno.   ",
+            "TEXT_4": "Autorku zanima i tema ženskog portreta. Žene koje predstavlja plod su njene mašte a nadahnute su ujedno slovačkom narodnom kulturom i vizantijskom ikonografijom. Istovremeno, personifikuju slikarkinu težnju da se u sopstvenom mikrokosmosu izbori za svoje mesto, mir i slobodu. ",
+            "TEXT_5": "Beg od stvarnosti i svakodnevice, povezanost sa prirodom, radoznalost prema porodičnim korenima, tradiciji i istoriji su činioci koji su izgradili imaginaciju Ljupke Erg. Prihvatajući vizuelni stimulans koji pružaju njeni radovi, preostaje nam samo da na njima ispitamo svaki pojedinačni detalj i doživimo ih na nama svojstven način.",
+            "AUTHOR": "Marta Đarmati istoričar umetnosti, kustos"
+        }
+    }
+}

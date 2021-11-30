@@ -1,20 +1,28 @@
 import { Component, OnInit } from '@angular/core';
 import { faFacebook, faFacebookSquare, faInstagram, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { TranslateService } from '@ngx-translate/core';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss']
 })
-export class SidebarComponent implements OnInit {
+export class SidebarComponent {
     faInstagram = faInstagram;
     faFacebook = faFacebookSquare;
 
-
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(public translate: TranslateService, private cookieService: CookieService) { 
+    translate.setDefaultLang('en');
+    if (this.cookieService.check('language')) {
+        translate.use(cookieService.get('language'));
+    }
   }
+
+  public changeLanguage(language: string) {
+    this.cookieService.set('language', language, undefined, '/', undefined, false, 'Lax');
+    this.translate.use(language);
+}
 
   toggleSubmenu(submenu: Element) : void {
     if(submenu.classList.contains("expanded")) {

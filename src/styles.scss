@@ -38,6 +38,18 @@ html, body {
     }
 }
 
+.times-link {
+    color: #FFFFFF;
+    transition: color .3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #A0B4D9;
+    }
+}
+
+
+
 .modal-dialog-full {
     height: 100vh;
     overflow: hidden !important;
@@ -56,6 +68,10 @@ html, body {
     }
 }
 
+.modal-backdrop.show {
+    opacity: 0.7 !important;
+}
+
 .carousel-slide {
     height: 85vh !important;
     padding-bottom: 0 !important;
@@ -64,4 +80,14 @@ html, body {
 
 .carousel {
     height: 85vh !important;
+}
+
+.mat-icon-button.mat-accent {
+    color: white;
+    transition: color .3s ease-out;
+    cursor: pointer;
+
+    &:hover {
+        color: #A0B4D9;
+    }
 }

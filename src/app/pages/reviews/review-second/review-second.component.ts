@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-review-second',
   templateUrl: './review-second.component.html',
   styleUrls: ['./review-second.component.scss']
 })
-export class ReviewSecondComponent implements OnInit {
+export class ReviewSecondComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  constructor(public translate: TranslateService) { }
 
 }

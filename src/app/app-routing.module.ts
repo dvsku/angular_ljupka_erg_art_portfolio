@@ -17,63 +17,68 @@ import { ReviewSecondComponent } from './pages/reviews/review-second/review-seco
 const routes: Routes = [
     {
         path: '',
-        component: HomeComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
-    },
-    {
-        path: 'gallery',
         component: GalleryComponent,
         data: { title: 'TITLES.HOME', reuseRoute: true }
     },
+    // {
+    //     path: 'gallery',
+    //     component: GalleryComponent,
+    //     data: { title: 'TITLES.HOME', reuseRoute: true }
+    // },
     {
         path: 'about',
         component: AboutMeComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.ABOUT', reuseRoute: true }
     },
     {
         path: 'reviews/imaginary-sceneries',
         component: ReviewFirstComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.IS', reuseRoute: true }
     },
     {
         path: 'reviews/vibrant-life',
         component: ReviewSecondComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.VL', reuseRoute: true }
+    },
+    {
+        path: 'portfolio/birds',
+        component: BirdsComponent,
+        data: { title: 'TITLES.BIRDS', reuseRoute: true }
     },
     {
         path: 'portfolio/dolls',
         component: DollsComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.DOLLS', reuseRoute: true }
     },
     {
         path: 'portfolio/flowers',
         component: FlowersComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.FLOWERS', reuseRoute: true }
     },
     {
         path: 'portfolio/landscape',
         component: LandscapeComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.LANDSCAPE', reuseRoute: true }
     },
     {
         path: 'portfolio/murals',
         component: MuralsComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.MURALS', reuseRoute: true }
     },
     {
         path: 'portfolio/novi-sad',
         component: NoviSadComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.NOVI_SAD', reuseRoute: true }
     },
     {
         path: 'portfolio/portrets',
         component: PortretsComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.PORTRETS', reuseRoute: true }
     },
     {
         path: 'portfolio/trees',
         component: TreesComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.TREES', reuseRoute: true }
     },
 ];
 

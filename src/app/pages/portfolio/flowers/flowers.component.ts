@@ -1,18 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { flowers } from 'src/app/assets';
+import { BasePortfolioComponent } from '../base/base-portfolio-component';
 
 @Component({
   selector: 'app-flowers',
-  templateUrl: './flowers.component.html',
+  templateUrl: '../base/base-portfolio-template.html',
   styleUrls: ['./flowers.component.scss']
 })
-export class FlowersComponent implements OnInit {
-
+export class FlowersComponent extends BasePortfolioComponent {
     images = flowers;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

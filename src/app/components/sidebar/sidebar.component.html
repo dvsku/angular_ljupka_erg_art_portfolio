@@ -1,53 +1,61 @@
 <div class="sidebar-container">
     <div class="title">
-        <div>Ljupka Erg</div>
+        <a class="title-link" routerLink="/">
+            <div>Ljupka Erg</div>
+        </a>
     </div>
     <div class="menu">
-        <div class="menu-item">
+        <!-- <div class="menu-item">
             <a class="menu-item-title" routerLink="/gallery"><span>Gallery</span></a>
-        </div>
+        </div> -->
         <div class="menu-item">
-            <span class="menu-item-title" (click)="toggleSubmenu(portfolioSubmenu)">Portfolio</span>
+            <span class="menu-item-title" (click)="toggleSubmenu(portfolioSubmenu)">
+                {{ 'SIDEBAR.PORTFOLIO' | translate}}
+            </span>
             <div #portfolioSubmenu class="submenu">
                 <a class="submenu-item" routerLink="/portfolio/birds">
-                    <div>Birds</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.BIRDS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/dolls">
-                    <div>Doll</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.DOLLS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/flowers">
-                    <div>Flowers</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.FLOWERS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/landscape">
-                    <div>Landscape</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.LANDSCAPE' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/murals">
-                    <div>Murals</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.MURALS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/novi-sad">
-                    <div>Novi Sad</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.NOVI_SAD' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/portrets">
-                    <div>Portrets</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.PORTRETS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/portfolio/trees">
-                    <div>Trees</div>
+                    <div>{{ 'SIDEBAR.PORTFOLIOSUB.TREES' | translate}}</div>
                 </a>
             </div>
         </div>
         <div class="menu-item">
-            <span class="menu-item-title" (click)="toggleSubmenu(reviewSubmenu)">Reviews</span>
+            <span class="menu-item-title" (click)="toggleSubmenu(reviewSubmenu)">
+                {{ 'SIDEBAR.REVIEWS' | translate}}
+            </span>
             <div #reviewSubmenu class="submenu">
                 <a class="submenu-item" routerLink="/reviews/imaginary-sceneries">
-                    <div>Imaginarni pejzaži</div>
+                    <div>{{ 'SIDEBAR.REVIEWSSUB.IS' | translate}}</div>
                 </a>
                 <a class="submenu-item" routerLink="/reviews/vibrant-life">
-                    <div>Vibracija života</div>
+                    <div>{{ 'SIDEBAR.REVIEWSSUB.VL' | translate}}</div>
                 </a>
             </div>
         </div>
         <div class="menu-item">
-            <a class="menu-item-title" routerLink="/about"><span>About Me</span></a>
+            <a class="menu-item-title" routerLink="/about">
+                <span>{{ 'SIDEBAR.ABOUT' | translate}}</span>
+            </a>
         </div>
     </div>
     <div class="contact">
@@ -55,9 +63,19 @@
             <fa-icon [icon]="faInstagram"></fa-icon>
             <fa-icon style="padding-left: .75rem;" [icon]="faFacebook"></fa-icon>
         </div>
-        <div class="email">ljupkaerg@gmail.com</div>
+        <a class="email" href="mailto:ljupkaerg@gmail.com">
+            <div>ljupkaerg@gmail.com</div>
+        </a>
+    </div>
+    <div class="language">
+        <div class="flag" (click)="changeLanguage('rs')">
+            <img src="/assets/flags/rs.svg" title="Srpski" />
+        </div>
+        <div class="flag" (click)="changeLanguage('en')">
+            <img src="/assets/flags/gb.svg" title="English" />
+        </div>
     </div>
     <div class="copyright">
-        Copyright © All rights reserved.
+        {{ 'SIDEBAR.COPYRIGHT' | translate}}
     </div>
 </div>

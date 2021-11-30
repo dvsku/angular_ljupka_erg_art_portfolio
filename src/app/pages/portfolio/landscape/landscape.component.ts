@@ -1,18 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { landscape } from 'src/app/assets';
+import { BasePortfolioComponent } from '../base/base-portfolio-component';
 
 @Component({
   selector: 'app-landscape',
-  templateUrl: './landscape.component.html',
+  templateUrl: '../base/base-portfolio-template.html',
   styleUrls: ['./landscape.component.scss']
 })
-export class LandscapeComponent implements OnInit {
-
+export class LandscapeComponent extends BasePortfolioComponent {
     images = landscape;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
