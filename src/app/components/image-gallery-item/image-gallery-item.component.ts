@@ -1,18 +1,22 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'image-gallery-item',
   templateUrl: './image-gallery-item.component.html',
   styleUrls: ['./image-gallery-item.component.scss']
 })
-export class ImageGalleryItemComponent implements OnInit {
+export class ImageGalleryItemComponent {
     @Input("source")
     source: string;
 
+    constructor(private renderer: Renderer2) { }
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    public onIntersection(visible: boolean, target: any): void {
+        if (visible && !target.classList.contains("visible")) {
+            this.renderer.addClass(target, "visible");
+        }
+        else if (target.classList.contains("visible")) {
+            this.renderer.removeClass(target, "visible");
+        }
+    }
 }
