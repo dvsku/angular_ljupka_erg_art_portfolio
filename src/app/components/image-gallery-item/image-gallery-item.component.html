@@ -1,4 +1,7 @@
 <div #item class="image-gallery-item" snInViewport [inViewportOptions]="{ threshold: .25 }"
     (inViewportChange)="onIntersection($event, item)">
     <div class="image" [style.background-image]="'url('+source+')'"></div>
+    <div class="overlay">
+        <div class="description">{{description}}</div>
+    </div>
 </div>

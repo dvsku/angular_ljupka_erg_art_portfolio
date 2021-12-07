@@ -9,6 +9,9 @@ export class ImageGalleryItemComponent {
     @Input("source")
     source: string;
 
+    @Input("description")
+    description: string;
+
     constructor(private renderer: Renderer2) { }
 
     public onIntersection(visible: boolean, target: any): void {
