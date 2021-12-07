@@ -34,7 +34,10 @@ html, body {
     }
 
     .menu-header {
-        grid-row: 1/2;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
         background-color: #303641;
         height: 3rem;
         display: flex;
@@ -95,14 +98,14 @@ html, body {
     height: 100%;
     width: 15rem;
 
-    top: 3rem;
+    top: 2.9rem;
     left: 0;
 
     transition: width .3s linear;
 
     .menu-overlay-content {
         background-color: #303641;
-        height: calc(100% - 3rem);
+        height: calc(100% - 2.9rem);
         width: 15rem;
         overflow-x: hidden;
         transition: width .3s linear;
@@ -175,6 +178,7 @@ html, body {
     color: white;
     transition: color .3s ease-out;
     cursor: pointer;
+    background-color: rgba($color: #000000, $alpha: .5);
 
     &:hover {
         color: #A0B4D9;

@@ -1,6 +1,8 @@
+@import "../../../../common";
+
 .standard-container {
     height: 100%;
-    padding: 3rem 10rem;
+    padding: 3rem 8%;
 }
 
 .title {
@@ -11,6 +13,8 @@
 .review {
     font-size: 18px;
     padding: 2rem 3rem;
+    line-height: 28px;
+    letter-spacing: .1rem;
 }
 
 .review:not(:first-child) {
@@ -18,8 +22,12 @@
 }
 
 .author {
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 2rem 0;
     display: flex;
     justify-content: flex-end;
+
+    @include media-breakpoint-up(md) {
+        padding: 1rem 0 2rem 0;
+    }
 }
 
