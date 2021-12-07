@@ -29,6 +29,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { InViewportModule } from '@thisissoon/angular-inviewport';
+import { ReviewThirdComponent } from './pages/reviews/review-third/review-third.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http);
@@ -54,7 +55,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutMeComponent,
     ReviewFirstComponent,
     ReviewSecondComponent,
-    CarouselModalComponent
+    CarouselModalComponent,
+    ReviewThirdComponent
   ],
   imports: [
     BrowserModule,

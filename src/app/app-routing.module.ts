@@ -13,6 +13,7 @@ import { PortretsComponent } from './pages/portfolio/portrets/portrets.component
 import { TreesComponent } from './pages/portfolio/trees/trees.component';
 import { ReviewFirstComponent } from './pages/reviews/review-first/review-first.component';
 import { ReviewSecondComponent } from './pages/reviews/review-second/review-second.component';
+import { ReviewThirdComponent } from './pages/reviews/review-third/review-third.component';
 
 const routes: Routes = [
     {
@@ -39,6 +40,11 @@ const routes: Routes = [
         path: 'reviews/vibrant-life',
         component: ReviewSecondComponent,
         data: { title: 'TITLES.VL', reuseRoute: true }
+    },
+    {
+        path: 'reviews/konstrukcija-slika',
+        component: ReviewThirdComponent,
+        data: { title: 'TITLES.KS', reuseRoute: true }
     },
     {
         path: 'portfolio/birds',

@@ -28,7 +28,8 @@
         "REVIEWS": "Recenzije",
         "REVIEWSSUB": {
             "IS": "Imaginarni pejzaži",
-            "VL": "Vibracija života"
+            "VL": "Vibracija života",
+            "KS": "Konstrukcija slika"
         },
         "ABOUT": "O meni",
         "COPYRIGHT": "Copyright © All rights reserved."
@@ -51,6 +52,12 @@
             "TEXT_4": "Autorku zanima i tema ženskog portreta. Žene koje predstavlja plod su njene mašte a nadahnute su ujedno slovačkom narodnom kulturom i vizantijskom ikonografijom. Istovremeno, personifikuju slikarkinu težnju da se u sopstvenom mikrokosmosu izbori za svoje mesto, mir i slobodu. ",
             "TEXT_5": "Beg od stvarnosti i svakodnevice, povezanost sa prirodom, radoznalost prema porodičnim korenima, tradiciji i istoriji su činioci koji su izgradili imaginaciju Ljupke Erg. Prihvatajući vizuelni stimulans koji pružaju njeni radovi, preostaje nam samo da na njima ispitamo svaki pojedinačni detalj i doživimo ih na nama svojstven način.",
             "AUTHOR": "Marta Đarmati istoričar umetnosti, kustos"
+        },
+        "KS": {
+            "TEXT_1": "Konstrukcija slika Ljupke Erg zasnovana je na čvrstom crtežu, blagih varijacija debljina linije u crnoj boji. Prostor između linija popunjen je bojenim površinama. Pri sagledavanju slike javlja se na vitraž. Slike su u crtežu figurativne, ali sa bojenim površinama sa velikim valerskim rasponom, kao i primenom komplementarnih boja oblik nestaje, odlazi u drugi plan, sa blagom asocijacijom na radove Pola Klea.",
+            "TEXT_2": "Ljupka pri radu bojene površine u obliku pravougaonika , kvadrata i trouglova vredno niže, marljivo  i predano slaže kao mozaik.",
+            "TEXT_3": "Posmatrajući proces rada na slici stiče se utisak kao da prisustvujete tkanju slike. Nizanje bojenih površina polako stavlja crtež u drugi plan koji ipak kao gravitacija drži eksploziju boja zajedno i održava sliku kompaktnom. Bogat kolorit odaje unutrašnji temperament umetnice.  Ako pogledate sliku u segmentima imamo apstraktan rad koji ima paralelu sa radom  Josipa Rubesa, s tim da on ne koristi, odnosno nema crtež u crnoj boji. Svojim radovima Ljupka je orginalna, vredna i re svega pedantna umetnica, odnosno stvaralac. Ako prolazite kroz Rumenku gde ova umetnica živi i stvara, prepoznaćete kuću ove umetnice, koja je oslikana kao i njeni radovi.",
+            "AUTHOR": "Jan Agarsky, akademski slikar"
         }
     }
 }
