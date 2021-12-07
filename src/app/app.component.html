@@ -1,8 +1,31 @@
-<div class="two-column-layout">
-    <div class="sidebar">
-        <sidebar></sidebar>
+<!-- <div class="two-column-layout">
+    <sidebar></sidebar>
+    <div class="content">
+        
+    </div>
+</div> -->
+
+<div class="layout">
+    <div class="menu-header">
+        <div class="toggler-container">
+            <button type="button" class="toggler" (click)="toggleMenu(menu)">
+                <fa-icon [icon]="faBars" class="navbar-toggler-icon"></fa-icon>
+            </button>
+        </div>
+        <div class="title">
+            <a class="title-link" routerLink="/">
+                <div>Ljupka Erg</div>
+            </a>
+        </div>
     </div>
     <div class="content">
         <router-outlet></router-outlet>
+    </div>
+
+</div>
+
+<div #menu class="menu-overlay">
+    <div class="menu-overlay-content">
+        <sidebar></sidebar>
     </div>
 </div>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { TranslateService } from '@ngx-translate/core';
 import { filter, map } from 'rxjs/operators';
 
@@ -18,6 +19,17 @@ export class AppComponent implements OnInit {
     ) {}
 
     private titleKey: string;
+
+    faBars = faBars;
+
+    toggleMenu(menu: Element) {
+        if(menu.classList.contains("collapsed")) {
+            menu.classList.remove("collapsed");
+        }
+        else {
+            menu.classList.add("collapsed");
+        }
+    }
 
     ngOnInit() {
         const title = this.titleService.getTitle();
