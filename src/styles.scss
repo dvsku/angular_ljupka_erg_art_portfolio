@@ -12,6 +12,10 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+*:focus-visible {
+    outline: 0;
+}
+
 @font-face {
     font-family: Yellowtail;
     src: url(assets/fonts/Yellowtail-Regular.ttf) format("opentype");
