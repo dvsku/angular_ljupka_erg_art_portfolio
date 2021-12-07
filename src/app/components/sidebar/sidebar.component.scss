@@ -134,10 +134,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 1rem;
+        padding-bottom: .3rem;
         font-size: .8rem;
         color: whitesmoke;
         white-space: nowrap;
+    }
+
+    .developers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        font-size: .7rem;
+        color: whitesmoke;
+        white-space: nowrap;
+
+        a {
+            color: whitesmoke;
+
+            &:hover {
+                color: #A0B4D9;
+            }
+        }
     }
 }
 
