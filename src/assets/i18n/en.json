@@ -1,6 +1,7 @@
 {
     "TITLES": {
         "HOME": "Ljupka Erg | Home",
+        "GALLERY": "Ljupka Erg | Gallery",
         "ABOUT": "Ljupka Erg | About Me",
         "IS": "Ljupka Erg | Reviews | Imaginary sceneries",
         "VL": "Ljupka Erg | Reviews | Vibrant life",
@@ -14,6 +15,7 @@
         "TREES": "Ljupka Erg | Portfolio | Trees"
     },
     "SIDEBAR": {
+        "GALLERY": "Gallery",
         "PORTFOLIO": "Portfolio",
         "PORTFOLIOSUB": {
             "BIRDS": "Birds",

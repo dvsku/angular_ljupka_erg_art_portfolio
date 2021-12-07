@@ -1,6 +1,7 @@
 {
     "TITLES": {
         "HOME": "Ljupka Erg | Početna",
+        "GALLERY": "Ljupka Erg | Galerija",
         "ABOUT": "Ljupka Erg | O meni",
         "IS": "Ljupka Erg | Recenzije | Imaginarni pejzaži",
         "VL": "Ljupka Erg | Recenzije | Vibracija života",
@@ -14,6 +15,7 @@
         "TREES": "Ljupka Erg | Portfolio | Drvo"
     },
     "SIDEBAR": {
+        "GALLERY": "Galerija",
         "PORTFOLIO": "Portfolio",
         "PORTFOLIOSUB": {
             "BIRDS": "Ptice",

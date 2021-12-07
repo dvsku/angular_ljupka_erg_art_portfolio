@@ -24,7 +24,7 @@ const routes: Routes = [
     {
         path: 'gallery',
         component: GalleryComponent,
-        data: { title: 'TITLES.HOME', reuseRoute: true }
+        data: { title: 'TITLES.GALLERY', reuseRoute: true }
     },
     {
         path: 'about',
