@@ -1,0 +1,45 @@
+@import "../../../common";
+
+.container-100 {
+    width: 100%;
+    height: 100%;
+
+    .collage {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .image {
+            width: 100%;
+            height: 25vh;
+            position: relative;
+
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+
+            @include media-breakpoint-up(md) {
+                width: 25%;
+                height: unset;
+                
+            }
+        }
+
+        @include media-breakpoint-up(md) {
+            flex-direction: row;
+            height: 85vh;
+        }
+    }
+
+    .title {
+        display: none;
+
+        font-size: 26px;
+        padding: 1rem 0 0 1rem;
+        font-weight: 500;
+
+        @include media-breakpoint-up(md) {
+            display: block;
+        }
+    }
+}

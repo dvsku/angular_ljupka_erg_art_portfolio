@@ -18,14 +18,14 @@ import { ReviewThirdComponent } from './pages/reviews/review-third/review-third.
 const routes: Routes = [
     {
         path: '',
+        component: HomeComponent,
+        data: { title: 'TITLES.HOME', reuseRoute: true }
+    },
+    {
+        path: 'gallery',
         component: GalleryComponent,
         data: { title: 'TITLES.HOME', reuseRoute: true }
     },
-    // {
-    //     path: 'gallery',
-    //     component: GalleryComponent,
-    //     data: { title: 'TITLES.HOME', reuseRoute: true }
-    // },
     {
         path: 'about',
         component: AboutMeComponent,
