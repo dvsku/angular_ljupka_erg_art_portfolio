@@ -16,11 +16,6 @@ html, body {
     outline: 0;
 }
 
-@font-face {
-    font-family: Yellowtail;
-    src: url(assets/fonts/Yellowtail-Regular.ttf) format("opentype");
-}
-
 .standard-container {
     padding: 1rem 0;
 }
@@ -32,11 +27,6 @@ html, body {
     display: grid;
     grid-template-rows: 3rem calc(100% - 3rem);
 
-    @include media-breakpoint-up(md) {
-        padding: 0 0 0 15rem;
-        grid-template-rows: 100%;
-    }
-
     .menu-header {
         position: fixed;
         top: 0;
@@ -45,6 +35,7 @@ html, body {
         background-color: #303641;
         height: 3rem;
         display: flex;
+        z-index: 1000;
 
         .toggler-container {
             display: flex;
@@ -83,17 +74,14 @@ html, body {
             }
         }
 
-        @include media-breakpoint-up(md) {
-            display: none;
-        }
+        // @include media-breakpoint-up(md) {
+        //     display: none;
+        // }
     }
 
     .content {
         grid-row: 2/3;
 
-        @include media-breakpoint-up(md) {
-            grid-row: 1/2;
-        }
     }
 }
 
@@ -112,11 +100,7 @@ html, body {
         height: calc(100% - 2.9rem);
         width: 15rem;
         overflow-x: hidden;
-        transition: width .3s linear;
-
-        @include media-breakpoint-up(md) {
-            height: 100%;
-        }
+        transition: width .5s linear;
     }
 
     &.collapsed {
@@ -124,15 +108,7 @@ html, body {
 
         .menu-overlay-content {
             width: 0;
-
-            @include media-breakpoint-up(md) {
-                width: 15rem;
-            }
         }
-    }
-
-    @include media-breakpoint-up(md) {
-        top: 0;
     }
 }
 
