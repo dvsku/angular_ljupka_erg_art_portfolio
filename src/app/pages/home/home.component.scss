@@ -27,19 +27,7 @@
 
         @include media-breakpoint-up(md) {
             flex-direction: row;
-            height: 85vh;
-        }
-    }
-
-    .title {
-        display: none;
-
-        font-size: 26px;
-        padding: 1rem 0 0 1rem;
-        font-weight: 500;
-
-        @include media-breakpoint-up(md) {
-            display: block;
+            height: 100%;
         }
     }
 }
