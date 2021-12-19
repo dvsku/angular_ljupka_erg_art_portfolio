@@ -52,7 +52,7 @@
                 <a class="submenu-item" routerLink="/reviews/vibrant-life">
                     <div>{{ 'SIDEBAR.REVIEWSSUB.VL' | translate}}</div>
                 </a>
-                <a class="submenu-item" routerLink="/reviews/konstrukcija-slika">
+                <a class="submenu-item" style="font-size: .9rem;" routerLink="/reviews/konstrukcija-slika">
                     <div>{{ 'SIDEBAR.REVIEWSSUB.KS' | translate}}</div>
                 </a>
             </div>
@@ -65,8 +65,9 @@
     </div>
     <div class="contact">
         <div class="social-media">
-            <fa-icon [icon]="faInstagram"></fa-icon>
-            <fa-icon style="padding-left: .75rem;" [icon]="faFacebook"></fa-icon>
+            <a href="https://www.facebook.com/erg.ljupka/" target="_blank">
+                <fa-icon style="padding-left: .75rem;" [icon]="faFacebook"></fa-icon>
+            </a>
         </div>
         <a class="email" href="mailto:ljupkaerg@gmail.com">
             <div>ljupkaerg@gmail.com</div>

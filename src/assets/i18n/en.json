@@ -5,6 +5,7 @@
         "ABOUT": "Ljupka Erg | About Me",
         "IS": "Ljupka Erg | Reviews | Imaginary sceneries",
         "VL": "Ljupka Erg | Reviews | Vibrant life",
+        "KS": "Ljupka Erg | Reviews | The Construction Of Painting",
         "BIRDS": "Ljupka Erg | Portfolio | Birds",
         "DOLLS": "Ljupka Erg | Portfolio | Doll",
         "FLOWERS": "Ljupka Erg | Portfolio | Flowers",
@@ -31,7 +32,7 @@
         "REVIEWSSUB": {
             "IS": "Imaginary sceneries",
             "VL": "Vibrant life",
-            "KS": "Konstrukcija slika"
+            "KS": "The Construction Of Painting"
         },
         "ABOUT": "About me",
         "COPYRIGHT": "Copyright © All rights reserved."
@@ -56,10 +57,10 @@
             "AUTHOR": "Marta Djarmati, art historian and curator"
         },
         "KS": {
-            "TEXT_1": "Konstrukcija slika Ljupke Erg zasnovana je na čvrstom crtežu, blagih varijacija debljina linije u crnoj boji. Prostor između linija popunjen je bojenim površinama. Pri sagledavanju slike javlja se na vitraž. Slike su u crtežu figurativne, ali sa bojenim površinama sa velikim valerskim rasponom, kao i primenom komplementarnih boja oblik nestaje, odlazi u drugi plan, sa blagom asocijacijom na radove Pola Klea.",
-            "TEXT_2": "Ljupka pri radu bojene površine u obliku pravougaonika , kvadrata i trouglova vredno niže, marljivo  i predano slaže kao mozaik.",
-            "TEXT_3": "Posmatrajući proces rada na slici stiče se utisak kao da prisustvujete tkanju slike. Nizanje bojenih površina polako stavlja crtež u drugi plan koji ipak kao gravitacija drži eksploziju boja zajedno i održava sliku kompaktnom. Bogat kolorit odaje unutrašnji temperament umetnice.  Ako pogledate sliku u segmentima imamo apstraktan rad koji ima paralelu sa radom  Josipa Rubesa, s tim da on ne koristi, odnosno nema crtež u crnoj boji. Svojim radovima Ljupka je orginalna, vredna i re svega pedantna umetnica, odnosno stvaralac. Ako prolazite kroz Rumenku gde ova umetnica živi i stvara, prepoznaćete kuću ove umetnice, koja je oslikana kao i njeni radovi.",
-            "AUTHOR": "Jan Agarsky, akademski slikar"
+            "TEXT_1": "The construction of Ljupka Erg's paintings is based on a solid drawing, with slight variations in the thickness of the line in black. The space between the lines is filled with painted surfaces. When viewing the painting, it appears on the stained glass. The paintings are figurative in the drawing, but with painted surfaces with a large valerian range, as well as the application of complementary colors, the shape disappears, goes into the background, with a slight association with the works of Paul Klee.",
+            "TEXT_2": "Ljupka, when working, the painted surface in the shape of rectangles, squares and triangles is worth lower, diligently and devotedly arranged like a mosaic. ",
+            "TEXT_3": "Observing the process of working on the painting gives the impression that you are attending the weaving of the painting. The sequence of painted surfaces slowly puts the drawing in the background, which, like gravity, holds the explosion of colors together and keeps the image compact. The rich color reveals the inner temperament of the artist. If you look at the picture in segments, we have an abstract work that has a parallel with the work of Josip Rubes, with the proviso that he does not use, or does not have a drawing in black. With her works, Ljupka is an original, diligent and, above all, meticulous artist, that is, a creator. If you pass through Rumenka where this artist lives and works, you will recognize the house of this artist, which is painted as well as her works. ",
+            "AUTHOR": "Jan Agarsky, academic painter"
         }
     }
 }

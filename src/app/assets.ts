@@ -31,7 +31,8 @@ export const landscape = [
     new Image("/assets/landscape/landscape5.jpg", "Pejzaž 2018. 30x30 ulje na platnu"),
     new Image("/assets/landscape/landscape6.jpg", "Plavi pejzaž 2019. 100x55 ulje na platnu"),
     new Image("/assets/landscape/landscape7.jpg", "Umbra krošnja 2019. 100x55 ulje na platnu"),
-    new Image("/assets/landscape/landscape8.jpg", "Žuti pejzaž 2019. 100x45 ulje na platnu")
+    new Image("/assets/landscape/landscape8.jpg", "Žuti pejzaž 2019. 100x45 ulje na platnu"),
+    new Image("/assets/landscape/landscape9.jpg", "Noć 2019, 100x45 ulje")
 ];
 
 export const mural = [
