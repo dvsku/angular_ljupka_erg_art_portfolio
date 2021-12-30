@@ -2,6 +2,6 @@
     (inViewportChange)="onIntersection($event, item)">
     <div class="image" [style.background-image]="'url('+source+')'"></div>
     <div class="overlay">
-        <div class="description">{{description}}</div>
+        <div class="description">{{description | translate }}</div>
     </div>
 </div>

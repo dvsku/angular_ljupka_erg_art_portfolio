@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { faFacebook, faFacebookSquare, faInstagram, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
+import { Component } from '@angular/core';
+import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { TranslateService } from '@ngx-translate/core';
 import { CookieService } from 'ngx-cookie-service';
 
